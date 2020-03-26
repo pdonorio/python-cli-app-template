@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: ./builds/app
+      args:
+        PYTHON_VERSION: ${PYTHON_VERSION}
+    volumes:
+      - ./src:/code
+      - ./data:/data
+      - ./config:/etc/app/config
+    working_dir: /code
+    # environment:
+    #   SOME_VALUE: ${VARIABLE_FROM_DOT_ENV}
+    # ports:
+    #   - "8080:8080"

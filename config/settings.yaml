@@ -1,0 +1,10 @@
+---
+# NOTE: numbers are not allowed in YAML,
+# you have to quote them as strings
+
+project:
+  name: test
+  option:
+      suboption: value
+data:
+  path: /data/path/to/your/files

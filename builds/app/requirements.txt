@@ -1,0 +1,10 @@
+ipython
+loguru
+devtools
+parse_it
+glom
+typer[all]
+#typer-cli
+#httpie
+#fabric
+invoke
